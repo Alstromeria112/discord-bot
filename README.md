@@ -17,15 +17,15 @@ npm start
 ## 設定
 `.env.sample`を`.env`に名称変更
 ```
-TOKEN="AAABBBCCC" # BotのToken
-CLIENT_ID="1234" # BotのClientID
-OWNER_ID="782142078464425995" # BotのOwnerID
-MAINTAINERS_ID="1234" # Owner以外実行可能なコマンドを実行可能にするUserID
-PREFIX="!" # メッセージコマンドを実行する際の接頭語
-ICON_URL="URL省略" # EmbedのiconURLに使用される
-POWERED="Powered by Discord Bot" # EmbedのFooterに使用される
-SUCCESS="✅ SUCCESS ✅" # SUCCESS時に出力される文字列
-ERROR="❌ ERROR ❌" # Error時に出力される文字列
+TOKEN="AAABBBCCCDDD"
+CLIENT_ID="1234"
+OWNER_ID="782142078464425995"
+MAINTAINERS_ID="1234"
+PREFIX="!"
+ICON_URL="https://cdn.discordapp.com/embed/avatars/0.png"
+POWERED="Powered by Discord Bot"
+SUCCESS="✅ SUCCESS ✅"
+ERROR="❌ ERROR ❌"
 ```
 | 項目 | 内容・説明                                                                 |
 | -------------- | ---------------------------------------------------------------- |
