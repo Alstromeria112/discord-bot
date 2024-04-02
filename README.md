@@ -33,26 +33,26 @@ ERROR="❌ ERROR ❌" # Error時に出力される文字列
 ## コマンドリスト
 
 ### スラッシュコマンド
-| コマンド名 | Description |
-| ---------- | ----------- |
-|    play    | Play music  |
-|    stop    | Stop music  |
-|    play    | Play music  |
-|    stop    | Stop music  |
-|    play    | Play music  |
-|    stop    | Stop music  |
-|    play    | Play music  |
-|    stop    | Stop music  |
-|    play    | Play music  |
-|    stop    | Stop music  |
-|    play    | Play music  |
-|    stop    | Stop music  |
+| コマンド名 | 内容・説明                             |
+| ---------- | --------------------------------------- |
+| ping       | Pingを表示                              |
+| reload     | Botを再読み込み                         |
+| play       | 曲を再生                                | 
+| stop       | 曲を停止                                |
+| pause      | 曲を一時停止                            |
+| unpause    | 曲の一時停止解除                        |
+| skip       | 曲を一曲スキップ                        |
+| loop queue | キュー内の曲を繰り返し再生(試験的)      |
+| shuffle    | キュー内の曲をランダム再生              |
+| unshuffle  | ランダム化したキューを元に(試験的)      |
+| queue list | キュー内に入っている曲をリストアップ    |
+| volume set | 音量を設定(0~100(デフォルト=5))(試験的) |
 
 ### メッセージコマンド
-| 接頭語+α |      説明       |
+| 接頭語+α |   内容・説明   |
 | -------- | --------------- |
-|   ping   |   Pingを表示    |
-|  reload  | Botを再読み込み |
+| ping     | Pingを表示      |
+| reload   | Botを再読み込み |
 
-##ライセンス(適当)
+##ライセンス(仮)
 MIT License
