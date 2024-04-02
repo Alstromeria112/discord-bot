@@ -30,7 +30,9 @@ SUCCESS="✅ SUCCESS ✅" # SUCCESS時に出力される文字列
 ERROR="❌ ERROR ❌" # Error時に出力される文字列
 ```
 
-## スラッシュコマンド
+## コマンドリスト
+
+### スラッシュコマンド
 | コマンド名 | Description |
 | ---------- | ----------- |
 |    play    | Play music  |
@@ -46,7 +48,10 @@ ERROR="❌ ERROR ❌" # Error時に出力される文字列
 |    play    | Play music  |
 |    stop    | Stop music  |
 
-## メッセージコマンド
+### メッセージコマンド
 | 接頭語+α |      説明       |
 |   ping   |   Pingを表示    |
 |  reload  | Botを再読み込み |
+
+##ライセンス(適当)
+MIT License
