@@ -54,5 +54,5 @@ ERROR="❌ ERROR ❌" # Error時に出力される文字列
 | ping     | Pingを表示      |
 | reload   | Botを再読み込み |
 
-##ライセンス(仮)
+## ライセンス(仮)
 MIT License
