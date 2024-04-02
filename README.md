@@ -19,16 +19,25 @@ npm start
 ```
 TOKEN="AAABBBCCC" # BotのToken
 CLIENT_ID="1234" # BotのClientID
-GUILD_ID="1234" # ログなどの出力先ギルド
-CHANNEL_ID="1234" # ログなどの出力先
 OWNER_ID="782142078464425995" # BotのOwnerID
-MAINTAINERS_ID="1234" # Owner以外実行できないコマンドを実行可能にするUserID
+MAINTAINERS_ID="1234" # Owner以外実行可能なコマンドを実行可能にするUserID
 PREFIX="!" # メッセージコマンドを実行する際の接頭語
-ICON_URL="https://cdn.discordapp.com/embed/avatars/0.png" # EmbedのiconURLに使用される
+ICON_URL="URL省略" # EmbedのiconURLに使用される
 POWERED="Powered by Discord Bot" # EmbedのFooterに使用される
 SUCCESS="✅ SUCCESS ✅" # SUCCESS時に出力される文字列
 ERROR="❌ ERROR ❌" # Error時に出力される文字列
 ```
+| 項目 | 内容・説明                                                                 |
+| -------------- | ---------------------------------------------------------------- |
+| TOKEN          | DiscordBotのトークンを記入                                        |
+| CLIENT_ID      | DiscordBotのクライアントIDを記入                                  |
+| OWNER_ID       | DiscordBotのオーナーIDを記入                                      |
+| MAINTAINERS_ID | オーナー以外にreloadコマンドなどを実行可能にさせるユーザーIDを記入 |
+| PREFIX         | メッセージコマンドを使用する際の接頭語を記入                       |
+| ICON_URL       | EmbedのFooterアイコンに使用するURLを記入                          |
+| POWERED        | EmbedのFooterに使用する文字列を記入                               |
+| SUCCESS        | コマンドの実行成功時に出力される文字列を記入                       |
+| ERROR          | コマンドの実行時にエラーが発生した場合に出力される文字列を記入     |
 
 ## コマンドリスト
 
