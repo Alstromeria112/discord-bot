@@ -3,13 +3,13 @@
 # Discord-Bot
 
 ## 準備
-Node.jsで使用するパッケージをインストール後、
-DiscordBotにスラッシュコマンドを登録 ※`.env`を設定後に実行
+Node.jsで使用するパッケージをインストール後、DiscordBotにスラッシュコマンドを登録
 ```
 npm install
 npm run pushcommands 
 ```
-※package.jsonが存在するディレクトリで実行
+※`package.json`が存在するディレクトリで実行
+※`.env`を設定後に実行
 
 ## 実行
 ```
