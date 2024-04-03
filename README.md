@@ -7,7 +7,7 @@ Node.jsで使用するパッケージをインストール
 DiscordBotにスラッシュコマンドを登録する
 ```
 npm install
-npm run pushcommands # .envの設定後に実行
+npm run pushcommands // .envの設定後に実行
 ```
 ※package.jsonが存在するディレクトリで実行
 
